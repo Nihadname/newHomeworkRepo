@@ -14,8 +14,8 @@ width: 100%;
 height: 725px;
 }
 .contanier{
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 .contanier .Navbar{
   display: flex;
@@ -82,11 +82,12 @@ margin-bottom: 12px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 396px; 
-  border-radius: 8px;
-  height: 357.55px;
+  width: 382px; 
+  border-radius: 4px;
+  height: 420.55px;
   margin: 0 auto; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  margin-top: -55px;
 }
 .loginPage span{
   font-size: 23px;
@@ -136,14 +137,14 @@ margin-bottom: 1px;
  .button1{
   font-size: 15px;
     border-radius: 36px;
-    height: 37px;
-    width: 338px;
+    height: 42px;
+    width: 335px;
     margin: 11px;
     background-color: #1877f2;
     border: none;
     color: white;
     font-weight: bold;
-    margin-left: 18px;
+    margin-left: 11px;
  }
  .ForgettenAcount{
 text-decoration: none;
