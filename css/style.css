@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:  SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+  font-family: "Montserrat", sans-serif;
 }
 body{
   
@@ -17,7 +17,7 @@ height: 725px;
   margin-left: 160px;
   margin-right: 160px;
 }
-.contanier .Navbar{
+.contanier .Navbar{ 
   display: flex;
   justify-content: space-between;
   margin-bottom: 156px;
@@ -55,13 +55,13 @@ height: 725px;
 .contanier .MainPart .LeftSide h1{
   font-size: 3.5rem;
 color: #fff;
-font-weight: 100;
+font-weight: 300;
 margin-bottom: 12px;
 }
 .contanier .MainPart .LeftSide p{
   color: #fff;
   line-height: 1.5;
-  font-weight: 100;
+  font-weight: 300;
   margin-bottom: 31px;
 }
 .contanier .MainPart .LeftSide a{
