@@ -46,3 +46,8 @@
    margin-bottom: 9px;
    border-radius: 6px;
 }
+.AllDetails .right .writing {
+    width: 90%;
+text-align: center;
+position: relative;
+}
