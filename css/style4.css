@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    margin-left: 290px;
+    margin-right: 290px;
+}
+body{
+background-color: #A9A9A9;
+}
+header h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 23px;
+    font-size: 2.6rem;
+    margin-bottom: 23px;
+}
+.TheMainOne{
+    text-align: center;
+height: 50px;
+margin-bottom: 8px;
+    background-color: #FF80FF;
+    display: flex;
+    justify-content: space-around;
+
+}
+.TheMainOne a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.TheMainOne input{
+    margin-top: 15px;
+}
+
+button {
+    background-color: black;
+    margin-top: 16px;
+    padding: 10px 22px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #333;
+}
+.TheAllBody{
+    display: flex;
+    text-align: center;
+}
+.TheAllBody .left{
+    width: 751px;
+    border: 1px solid red;
+    background-color: #fff;
+    margin-right: 12px;
+    height: 509px;
+}
+.TheAllBody .left h1{
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.TheAllBody .left p{
+    padding-right: 52px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.TheAllBody .right{
+    width: 210px;
+    height: 514px;
+    background-color: #FF80FF;
+    border: 1px solid  red;
+}
+.right li {
+    margin-bottom: 10px; /* Adjust the margin bottom as needed */
+    margin-left: 18px;
+}
+
+.right li a {
+    text-decoration: none;
+
+    color: blue;
+    transition: color 0.3s ease-in-out;
+}
