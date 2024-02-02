@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.container{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+a{
+    text-decoration: none;
+}
+.theMainPart{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+margin-bottom: 8.3px;
+}
+.theMainPart .left a{
+    background-color:#4FABA5;
+    color: #fff;
+
+    padding: 12px;
+    font-size: 1.5rem;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-weight: 600;
+}
+.theMainPart .left{
+margin-top: 26px;
+}
+.theMainPart .right{
+    margin-top: 26px;
+
+}
+.theMainPart .right a{
+    margin-left: 23px;
+}
+.theMainPart .right .extra{
+    border-right: 1px solid black;
+    display: inline-block;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-right: 7px;
+}
+main{
+    background-color: #DCDCDC
+}
+
+.TheBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TheBody .leftOne h2{
+color: #4FABA5;
+margin-left: 19px;
+margin-top: 19px;
+font-size: 1.5rem;
+}
+.TheBody .leftOne{
+    background-color: #fff;
+    margin-top: 39px;
+    width: 690px;
+    height: 620px;
+}
+.TheBody .leftOne hr{
+    margin-bottom: 23px;
+    margin-left: 14px;
+    margin-right: 14px;
+ background-color: #DCDCDC;
+ height: 1px;
+
+ border: none;
+}
+.TheBody .leftOne .imageAndWriting img{
+    float: left;
+    margin-left: 19px;
+    margin-right: 17px;
+}
+.TheBody .leftOne .imageAndWriting h2{
+    color: #DCDCDC;
+    margin-bottom: 17px;
+    margin-right:12px;
+}
+.TheBody .leftOne .imageAndWriting p{
+    margin-left: 19px;
+margin-right: 20px;
+}
+.TheLast{
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    border-top: 4.4px solid #4FABA5;
+    padding-bottom: 2.5rem;
+}
+.TheLast p{
+    color: #fff;
+    padding-top: 45px;
+}
+ .RightOne .compenent{
+    margin-top: -291px;
+
+width: 285px;
+text-align: center ;
+height: 176px;
+background-color: #fff;
+}
+.RightOne .compenent h2{
+   padding-top:15px ;
+   color: #4FABA5;
+margin-bottom: 5px;
+   font-size: 1.5rem;
+}
+.RightOne .compenent hr{
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+}

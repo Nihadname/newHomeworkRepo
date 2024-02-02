@@ -12,11 +12,10 @@
 }
 
 .AllDetails{
-    display: flex;
+
     background-color: white;
   text-align: center;
-  justify-content: space-between;
-  width: 750px; 
+  width: 802px;
   border-radius: 4px;
   height: 420.55px;
   margin: 0 auto; 
@@ -26,6 +25,11 @@
 .AllDetails .left{
     width: 40%;
     background-color:#1a4496;
+    float: left;
+    padding-bottom: 37px;
+border-radius: 9px;
+}
+.AllDetails .right{
 }
 .AllDetails .left h2{
     color: #fff;
@@ -40,14 +44,80 @@
     font-weight: 500;
 }
 .AllDetails .left img{
-   margin-top: 62px;
+    margin-top: 44px;
    width: 77%;
    height: 54%;
    margin-bottom: 9px;
    border-radius: 6px;
 }
 .AllDetails .right .writing {
-    width: 90%;
 text-align: center;
-position: relative;
+}
+.AllDetails .right .writing h1{
+letter-spacing: 7px;
+font-weight: 500;
+padding-top: 33px;
+text-transform: uppercase;
+}
+
+.AllDetails .right .writing hr {
+    width: 50%;  
+    margin-top: 15px; 
+    float: right;
+    margin-right: 43px;
+
+}
+.AllDetails .right .second .secondOne {
+    float: right;
+    margin-top: 12px;
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 107.5px;
+
+}
+.AllDetails .right .second .first{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-left: 45px;
+
+    text-decoration: none;
+float: left;}
+.AllDetails .right .second .leftSide{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-left: -62px;
+    margin-top: 50px;
+    text-decoration: none;
+    float: left;}
+
+.AllDetails .right .second .RightSide{
+    margin-right: 15px;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-left: 47px;
+    text-decoration: none;
+    float: right;
+}
+.AnimationPart{
+    margin-top: 189px;
+}
+.AnimationPart a{
+    font-size: 30px;
+    padding: 16px;
+    color: #fff;
+    background-color: #1a4496;
+    margin-left: 19px;
+}
+
+.AnimationPart a i{
+    font-size: 32px;
 }
