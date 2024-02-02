@@ -120,3 +120,25 @@ margin-bottom: 5px;
     margin-left: 12.5px;
     margin-right: 12.5px;
 }
+.compenent a {
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #000;
+    padding: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.compenent a:hover {
+    color: #4FABA5;
+}
+.compenent .extra-one{
+    background-color: rgb(26, 107, 201);
+    border-radius: 3px;
+}
+.compenent .extra-second{
+    background-color: orange;
+}
